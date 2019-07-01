@@ -77,6 +77,8 @@ def update_nickname(username, nickname):
 
 #绑定QQ号
 def binding_qq(username, qq_number):
+    if qq_number == "":
+        return False
     fetch_sql = "SELECT * FROM users WHERE username = '" + username + "'"
     conn = SQLiteDB.get_conn(SQLiteDB.UserDB_FILE_PATH)
     table = SQLiteDB.fetchall(conn, fetch_sql)
