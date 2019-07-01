@@ -14,7 +14,18 @@ def register(username, password):
         return True
     else:
         return False
-
+# def test_reg1():
+#     assert(register('阿信','')==False)
+# #用户名不存在，密码为空
+# def test_reg2():
+#     assert(register('刘畅','')==False)
+# #用户名存在，密码为空
+# def test_reg3():
+#     assert(register('坤坤','123456')==True)
+# #用户名不存在，密码不为空
+# def test_reg4():
+#     assert(register('刘畅','123456')==False)
+#用户名存在，密码不为空
 #用户登录 
 def login(username, password):
     fetch_sql = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'"
@@ -24,6 +35,15 @@ def login(username, password):
         return True
     else:
         return False
+# def test_log1():
+#     assert(login('吴京','')==False)
+# #用户名不存在
+# def test_log2():
+#     assert(login('刘畅','123456')==False)
+# #用户名存在，密码错误
+# def test_log3():
+#     assert(login('刘畅','liuchang')==True)
+# #用户名存在，密码正确
 
 #设置用户头像
 def update_profile(username, profile):
@@ -67,6 +87,18 @@ def binding_qq(username, qq_number):
     else:
         return False
 
+# def test_qq1():
+#     assert(binding_qq('周董','')==False)
+# #用户名不存在，QQ为空
+# def test_qq2():
+#     assert(binding_qq('刘畅','')==False)
+# #用户名存在，QQ为空
+# def test_qq3():
+#     assert(binding_qq('周董','123456')==False)
+# #用户名不存在，QQ不为空
+# def test_qq4():
+#     assert(binding_qq('刘畅','123456')==True)
+# # 用户名存在，QQ不为空
 
 #获取用户歌单
 def songlist_test(username):
@@ -96,11 +128,20 @@ def songlist_test(username):
             }
             songlist.append(song)
             #print(table[i])
+    else:
+        return False
     dic = {'num':num[0][0], 'songlist':songlist, 'qqnumber':qqnumber[0][0]}
     myjson = json.dumps(dic, ensure_ascii = False)
     # print(myjson)
     return myjson
 
+# def test_songlist1():
+#     assert (songlist_test('吴亦凡')==False)
+# #用户不存在
+#
+# def test_songlist2():
+#     assert (songlist_test('刘畅')!=False)
+# #用户存在
 #添加歌曲到用户歌单
 def add_to(username, songmid):
     fetch_sql = "SELECT * FROM user_songs WHERE username = '" + username + "' AND songmid = '" + songmid + "'"
@@ -114,6 +155,15 @@ def add_to(username, songmid):
         return True
     else:
         return False
+# def test_add1():
+#     assert add_to('刘畅','0039MnYb0qxYhV')==True
+# #用户名存在，未添加
+# def test_add2():
+#     assert add_to('金大大','0039MnYb0qxYhV')==False
+#用户名不存在
+# def test_add3():
+#     assert add_to('刘畅','0039MnYb0qxYhV')==False
+# #用户名存在，已添加
 
 #添加歌曲到歌曲信息表    
 def add_song_to(songname, songmid, interval, singers, album, albummid, videoid, songid):
@@ -163,6 +213,8 @@ def get_top(num):
         number = total[0][0]
     else:
         number = num
+    if number==0:
+        return False;
     table = SQLiteDB.fetchmany(conn, fetch_sql, num)
     topsonglist = []
     for i in range(number):
@@ -187,5 +239,15 @@ def get_top(num):
     # print(myjson)
     return myjson
 
-
+# #边界值测试，top歌曲
+# def test_top2():
+#     assert(get_top(1)!=False)
+# def test_top3():
+#     assert(get_top(2)!=False)
+# def test_top4():
+#     assert(get_top(25)!=False)
+# def test_top5():
+#     assert(get_top(49)!=False)
+# def test_top6():
+#     assert(get_top(50)!=False)
 
