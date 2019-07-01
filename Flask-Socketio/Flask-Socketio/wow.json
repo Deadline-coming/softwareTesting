@@ -1,0 +1,315 @@
+{
+    "getMvUrl": {
+        "data": {
+            "g0022q7z0um": {
+                "mp4": [
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 0,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://180.153.119.153/vcloud1049.tc.qq.com/",
+                            "http://180.153.119.154/vcloud1049.tc.qq.com/",
+                            "http://180.153.119.155/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://180.153.119.153/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…01530E78A388FE5B17CBD95CE190AF15FC73ADCB914D488E0273A010A8166C434C8B39EF56",
+                            "http://180.153.119.154/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…01530E78A388FE5B17CBD95CE190AF15FC73ADCB914D488E0273A010A8166C434C8B39EF56",
+                            "http://180.153.119.155/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…01530E78A388FE5B17CBD95CE190AF15FC73ADCB914D488E0273A010A8166C434C8B39EF56"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f10.mp4",
+                        "vkey": "D0FB6D4CD4F6FF191CEC55D124EF73E92ABF6651EADC1DD2BF3DACC157B959D8C3DE0376AD43A62747CD5F0EE5BE25E94A2E6F01530E78A388FE5B17CBD95CE190AF15FC73ADCB914D488E0273A010A8166C434C8B39EF56",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 10,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://101.227.216.146/vcloud1049.tc.qq.com/",
+                            "http://101.227.216.147/vcloud1049.tc.qq.com/",
+                            "http://101.227.216.148/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://101.227.216.146/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…E0B9C84E5929BD2555EE90B91EE16EA9F984EB90F6BCC468C51CA2872189084F859C6E6D77",
+                            "http://101.227.216.147/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…E0B9C84E5929BD2555EE90B91EE16EA9F984EB90F6BCC468C51CA2872189084F859C6E6D77",
+                            "http://101.227.216.148/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…E0B9C84E5929BD2555EE90B91EE16EA9F984EB90F6BCC468C51CA2872189084F859C6E6D77"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f20.mp4",
+                        "vkey": "33567B25FEF985EADD24B7D04259302B1ABD2D8765C0059C6E48CBA9BF31A871741B4C50BC3E40D1E353B094BA2370C6F80AA5E0B9C84E5929BD2555EE90B91EE16EA9F984EB90F6BCC468C51CA2872189084F859C6E6D77",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 20,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://222.73.132.145/vcloud1049.tc.qq.com/",
+                            "http://222.73.132.146/vcloud1049.tc.qq.com/",
+                            "http://222.73.132.147/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://222.73.132.145/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK10015…B561461EE97244351F74978BA29E421C6A3F25B89EF425D509F893055674470D427FD24348",
+                            "http://222.73.132.146/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK10015…B561461EE97244351F74978BA29E421C6A3F25B89EF425D509F893055674470D427FD24348",
+                            "http://222.73.132.147/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK10015…B561461EE97244351F74978BA29E421C6A3F25B89EF425D509F893055674470D427FD24348"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f30.mp4",
+                        "vkey": "D3DDD1E042832B7CDC4516AB3ED3DFE4658F043C1B4F1E7BF4DA14A2F02250CA0949C5B320343AC1A70BE46831D6860062CFEDB561461EE97244351F74978BA29E421C6A3F25B89EF425D509F893055674470D427FD24348",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 30,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://180.153.119.155/vcloud1049.tc.qq.com/",
+                            "http://180.153.119.156/vcloud1049.tc.qq.com/",
+                            "http://180.153.119.157/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://180.153.119.155/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…9DCC1F6C3D0BD1B11EACE1D86ED47317BBAD96624539DE4961848FAC6A3BE02F824E926CCF",
+                            "http://180.153.119.156/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…9DCC1F6C3D0BD1B11EACE1D86ED47317BBAD96624539DE4961848FAC6A3BE02F824E926CCF",
+                            "http://180.153.119.157/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001…9DCC1F6C3D0BD1B11EACE1D86ED47317BBAD96624539DE4961848FAC6A3BE02F824E926CCF"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f40.mp4",
+                        "vkey": "ED97CFBAD9E9A9360C4640C1ACF0ADAAE8FDDC370EC11BC86C4D54FE8748BA5333488750A4342BB64AAAE3F10BD6FC35B28F1B9DCC1F6C3D0BD1B11EACE1D86ED47317BBAD96624539DE4961848FAC6A3BE02F824E926CCF",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 40,
+                        "m3u8": ""
+                    }
+                ],
+                "hls": [
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 0,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 10,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 20,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 30,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 40,
+                        "m3u8": ""
+                    }
+                ]
+            }
+        },
+        "code": 0
+    },
+    "code": 0,
+    "ts": 1546194009335
+}
+
+{
+    "getMvUrl": {
+        "data": {
+            "g0022q7z0um": {
+                "mp4": [
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 0,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://121.51.160.52/vcloud1049.tc.qq.com/",
+                            "http://121.51.22.126/vcloud1049.tc.qq.com/",
+                            "http://121.51.22.13/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://121.51.160.52/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…3BB03C7BFB8D4675608F8BC359D83448A1E2C049160E7A2DE08B799E6172872C23475360C7",
+                            "http://121.51.22.126/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…3BB03C7BFB8D4675608F8BC359D83448A1E2C049160E7A2DE08B799E6172872C23475360C7",
+                            "http://121.51.22.13/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001541…3BB03C7BFB8D4675608F8BC359D83448A1E2C049160E7A2DE08B799E6172872C23475360C7"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f10.mp4",
+                        "vkey": "10D1B1B649316AB4423077CFA56943191D7CF602A5312E7E66FBABC25FAEA7F692F344D9116A4FE0F4FAC3EAB9795F4AFBD2673BB03C7BFB8D4675608F8BC359D83448A1E2C049160E7A2DE08B799E6172872C23475360C7",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 10,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://121.51.160.52/vcloud1049.tc.qq.com/",
+                            "http://121.51.22.126/vcloud1049.tc.qq.com/",
+                            "http://121.51.22.13/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://121.51.160.52/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…4578634F8B08156A85356CA223E09809ED5349A50E30162D88176C20D7EDA13B8EF25BC86E",
+                            "http://121.51.22.126/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…4578634F8B08156A85356CA223E09809ED5349A50E30162D88176C20D7EDA13B8EF25BC86E",
+                            "http://121.51.22.13/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001541…4578634F8B08156A85356CA223E09809ED5349A50E30162D88176C20D7EDA13B8EF25BC86E"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f20.mp4",
+                        "vkey": "2F5A14D996037C3747DF6CD9108B3584FC69C5DB3324CFB7FC4C801E433EC3A3BE51489245E7677FFE005EEF3D8252E4EE8A534578634F8B08156A85356CA223E09809ED5349A50E30162D88176C20D7EDA13B8EF25BC86E",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 20,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://121.51.22.126/vcloud1049.tc.qq.com/",
+                            "http://121.51.22.13/vcloud1049.tc.qq.com/",
+                            "http://121.51.160.148/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://121.51.22.126/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…33BE39FFF863E3873D5D1AA93B2C10B9185E24D1C2408408E535CCD2A40593D40F8FBE6B50",
+                            "http://121.51.22.13/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK1001541…33BE39FFF863E3873D5D1AA93B2C10B9185E24D1C2408408E535CCD2A40593D40F8FBE6B50",
+                            "http://121.51.160.148/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK10015…33BE39FFF863E3873D5D1AA93B2C10B9185E24D1C2408408E535CCD2A40593D40F8FBE6B50"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f30.mp4",
+                        "vkey": "999AB543F3CACD81FAADE02CBB19B9F475B8FA1CE19F7AADDE7236707802FAC60882C46129083681C1122E7AB1AE361560088033BE39FFF863E3873D5D1AA93B2C10B9185E24D1C2408408E535CCD2A40593D40F8FBE6B50",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 30,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [
+                            "http://121.51.160.51/vcloud1049.tc.qq.com/",
+                            "http://121.51.160.149/vcloud1049.tc.qq.com/",
+                            "http://121.51.160.53/vcloud1049.tc.qq.com/"
+                        ],
+                        "freeflow_url": [
+                            "http://121.51.160.51/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…C8B308BE29A41438B40415454B5D64FC534D4FF859AE52ACF1C5C496EF86956FEB25A6C47E",
+                            "http://121.51.160.149/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK10015…C8B308BE29A41438B40415454B5D64FC534D4FF859AE52ACF1C5C496EF86956FEB25A6C47E",
+                            "http://121.51.160.53/vcloud1049.tc.qq.com/1049_M2102644000XgTCE4Sa0pK100154…C8B308BE29A41438B40415454B5D64FC534D4FF859AE52ACF1C5C496EF86956FEB25A6C47E"
+                        ],
+                        "comm_url": [],
+                        "cn": "1049_M2102644000XgTCE4Sa0pK1001541675.f40.mp4",
+                        "vkey": "958678D0180A9BA9A8FDCC38B73D2DB37BE3CB9C0766FD74972CFB4C067BB8F2AA62C57790C349CBE6B84230682F37F52E0262C8B308BE29A41438B40415454B5D64FC534D4FF859AE52ACF1C5C496EF86956FEB25A6C47E",
+                        "expire": 86000,
+                        "code": 0,
+                        "filetype": 40,
+                        "m3u8": ""
+                    }
+                ],
+                "hls": [
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 0,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 10,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 20,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 30,
+                        "m3u8": ""
+                    },
+                    {
+                        "url": [],
+                        "freeflow_url": [],
+                        "comm_url": [],
+                        "cn": "",
+                        "vkey": "",
+                        "expire": 86000,
+                        "code": 2000,
+                        "filetype": 40,
+                        "m3u8": ""
+                    }
+                ]
+            }
+        },
+        "code": 0
+    },
+    "code": 0,
+    "ts": 1546194095777
+}

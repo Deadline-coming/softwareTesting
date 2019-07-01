@@ -1,0 +1,7 @@
+{
+    "python.promptToInstallJupyter": false,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=numpy",
+        "--extension-pkg-whitelist=cv2"
+    ]
+}
