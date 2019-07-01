@@ -71,7 +71,6 @@ function MouseOutListItem() {
 function play(index) {
     var song = songarray[index];
     $.get("/api/urlof/" + song.songmid, function (songurl) {
-        console.log(songmid);
         sendToLocalStorage(songurl, song["songmid"], song["albummid"], song.name, song.singer);
     });
 }
@@ -119,7 +118,6 @@ function like(index) {
 function download(index) {
     var a = document.createElement("a");
     $.get("/api/urlof/" + songarray[index].songmid, function (data) {
-//        console.log(songarray[index].songmid);
         a.setAttribute("href", data);
         a.setAttribute("download", songarray[index]["name"] + ".mp3");
         a.click();

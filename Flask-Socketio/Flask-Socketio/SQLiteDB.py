@@ -13,11 +13,7 @@ def get_conn(path):
         conn = None
         return sqlite3.connect(':memory:')
 
-# def test_conn():
-#     assert (get_conn('./users.db'))
-co=get_conn(UserDB_FILE_PATH)
-# co=get_conn('jfaljf')
-# print(co)
+get_conn(UserDB_FILE_PATH)
 
 #获取数据库游标对象
 def get_cursor(conn):
@@ -33,11 +29,8 @@ def create_table(conn, sql):
         cur.execute(sql)
         conn.commit()
         close_all(conn, cur)
-        return 1
     else:
         pass
-# def test_creat():
-#     assert create_table(co,"SELECT * FROM user_songs")==1
 
 #删除数据库表
 def drop_table(conn, table):
@@ -106,4 +99,3 @@ def update(conn, sql, data):
             close_all(conn, cur)
     else:
         pass
-

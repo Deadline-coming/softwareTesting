@@ -11,10 +11,29 @@ header = {
 }
 
 cookies = {
-    'luin':'o0917670214',
-    'lskey':'00010000535ad3e32671f843fdb11614ddcee9315f32e77cffd0c777cbe840b1621ed9bff922ef8d1c61ad11'
+    'pgv_pvi':'3169274880', 
+    'pgv_pvid':'3808568376', 
+    'ts_uid':'3176730584', 
+    'RK':'JWhACjhwGi', 
+    'ptcz':'12d3c22fb8f11acf4dbe05d9c722d0f93f0a92417724d3b8f846690ddfb71512', 
+    'ts_refer':'xui.ptlogin2.qq.com/cgi-bin/xlogin', 
+    'tvfe_boss_uuid':'6af2b45bb72ab0c8', 
+    'ptisp':'ctc', 
+    'yqq_stat':'0', 
+    'pgv_info':'ssid:s7938581132', 
+    'pgv_si':'s97359872', 
+    '_qpsvr_localtk':'0.8261462656590852', 
+    'uin':'o2835893638', 
+    'skey':'@Nen2RhicK', 
+    'luin':'o2835893638', 
+    'lskey':'0001000028f474d3331ba33283c8974006652d7e148309fd35c8c0dcd492b92bfa8e5f7a7446b937d4c9b654', 
+    'p_uin':'o2835893638', 
+    'pt4_token':'Q6ClY9D3ODLkqBiBWVyFM9qLn3bOLMtlwRx5sotBh0s_', 
+    'p_skey':'Msb-EY2s0irk5kmcSS-SUDxCyws92-g28UMQmop0K6k_', 
+    'p_luin':'o2835893638', 
+    'p_lskey':'00040000d2ba9f9086d45cfb6afec6f318e9443fd9b61e7244bda3b94f5d24d9ff64d41c4ee6abee34843f58', 
+    'ts_last':'y.qq.com/portal/search.html'
 }
-
 
 ips = [
     'http://180.153.119.146/vcloud1049.tc.qq.com/',
@@ -56,7 +75,7 @@ def getkey():
 
 def getsearch(searchkey,pageindex = '1'):
     return requests.get('https://c.y.qq.com/soso/fcgi-bin/client_search_cp?cr=1&catZhida=1&n=20&p='+ pageindex +'&w='+ searchkey).text.strip('callback()')
-print(getsearch('zjl','1'))
+
 
 # test songmid: 002WCV372JMZJw 001J5QJL1pRQYB
 def getLyric(songmid):
@@ -64,12 +83,6 @@ def getLyric(songmid):
     lyricorign = base64.b64decode(json.loads(jsonstr)['lyric']).decode("utf-8")
     # print(lyricorign)
     return lyricorign[lyricorign.find('[00:'):]
-# #存在歌曲id
-# def test_Ly():
-#     assert getLyric('0039MnYb0qxYhV')!=False
-#     #无效歌曲id
-# def test_Ly2():
-#     assert getLyric('00300000000000')==False
 
 def getSongDetail(songid,songmid):
     url = 'https://u.y.qq.com/cgi-bin/musicu.fcg?format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data={"songinfo":{"method":"get_song_detail_yqq","param":{"song_type":0,"song_mid":"' + songmid + '","song_id":' + songid + '},"module":"music.pf_song_detail_svr"}}'
@@ -117,7 +130,7 @@ def get_user_songlist(disstid,pageindex = 0):
 # url = 'https://c.y.qq.com/rsc/fcgi-bin/fcg_get_profile_homepage.fcg?g_tk=944661439&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&cid=205360838&ct=20&reqfrom=1&reqtype=0&userid=' + userid;
 def _get_user_dissid(userid):
     url = 'https://c.y.qq.com/rsc/fcgi-bin/fcg_get_profile_homepage.fcg?hostUin=0&format=json&cid=205360838&reqfrom=1&reqtype=0&userid=' + userid;
-    result = requests.get(url, headers=header,cookies=cookies).text
+    result = requests.get(url, headers=header).text
     user_diss_id = json.loads(result)['data']['mymusic'][0]['id']
     return user_diss_id
 
