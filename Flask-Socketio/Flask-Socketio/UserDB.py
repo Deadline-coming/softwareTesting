@@ -3,7 +3,7 @@ import json
 
 #注册用户
 def register(username, password):
-    if password == ""
+    if password == "":
         return False
     fetch_sql = "SELECT * FROM users WHERE username = '" + username + "'"
     conn = SQLiteDB.get_conn(SQLiteDB.UserDB_FILE_PATH)
